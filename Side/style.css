@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	background-color: rgb(178, 178, 199);
+
+	min-height: 800px;
+	margin: 0;
+	padding: 0;
+}
+
+#myCanvas
+{
+	margin-left: 8%;
+	margin-top: 1%;
+}
+/*
+header {
+	background-color: rgb(42, 27, 122);
+	width: 1024px;
+	height: 100px;
+}
+aside{
+	background-color: rgb(102, 102, 241);
+	width: 200px;
+	height: 600px;
+	margin: 5px;
+	float: left;
+}
+ #content {
+	background-color: rgb(98, 196, 196);
+	width: 800px;
+	height: 600px;
+	margin: 5px;
+	float: right;
+}*/	
+#navBar
+{
+    outline: grey solid 2px;
+    background-color: darkmagenta;
+    font-size: large;
+    width: 100%;
+}
+
+#navBar, a:link
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+#navBar, a:hover
+{
+    color: blue;
+}
+
+#navBar, a:visited
+{
+    color: white;
+    text-decoration: none;
+}
