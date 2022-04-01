@@ -1,6 +1,6 @@
 window.onload=function()
 {
-    var canvas = document.getElementById('spilCanvas');
+    var canvas = document.getElementById('scorchedCanvas');
     var context = canvas.getContext('2d');
 
     var cannonball = new Image();
