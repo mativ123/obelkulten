@@ -87,3 +87,8 @@ body
     margin-top: 0;
     float: right;
 }
+
+#scorchedCanvas
+{
+    background-image: url(kanon/background.jpg);
+}
