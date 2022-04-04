@@ -92,3 +92,23 @@ body
 {
     background-image: url(kanon/background.jpg);
 }
+
+a.normLink:link
+{
+    color: white;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+a.normLink:visited
+{
+    color: white;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+a.normLink:hover
+{
+    color: blue;
+    font-size: xx-large;
+}
